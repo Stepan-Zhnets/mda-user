@@ -1,6 +1,6 @@
 import flet as ft
 
-from Python_AD.AD import groups
+from Python_AD import groups
 
 def get_options():
     options=[]
@@ -19,7 +19,7 @@ def edit_user(
         User_All_Name:str,
         User_Login_Name:str,
         User_Group:str,
-        )->str:
+        ):
     data_user = ft.AlertDialog(
         # width=500,
         actions=[

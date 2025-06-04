@@ -1,5 +1,5 @@
 import flet as ft
-from UI_Components.edit_userAlertDialog import edit_user
+from UI_Components import edit_user
 
 data_users = [
     {

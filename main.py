@@ -1,6 +1,6 @@
 import flet as ft
 
-from UI_Components.userDataTable import update_table
+from UI_Components import update_table
 
 enter_user = ft.TextField(
     label="Имя",

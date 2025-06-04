@@ -4,3 +4,6 @@ groups = [
     "Набор_3",
     "Набор_4",
 ]
+
+def groups_public():
+    return groups
